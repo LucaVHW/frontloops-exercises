@@ -1,0 +1,86 @@
+body{
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(64,171,132);
+}
+.container{
+  width: 600px;
+  height: 500px;
+  background-color: white;
+  border-radius: 5px;
+}
+.main{
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  background: url(img/bicycle.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 0px 200px;
+}
+.content{
+  padding: 40px 60px 0px;
+}
+.header{
+  font-family: 'Roboto';
+  margin-bottom: 10px;
+}
+.header h1{
+  margin: 0;
+  font-size: 1.6em;
+}
+.title{
+  display: flex;
+  width: 100%;
+}
+.title img{
+  margin-left: 270px;
+  border: 1px solid grey;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+  bottom: 5px;
+  transition-duration: 0.3s;
+}
+.title img:hover{
+  box-shadow: 0px 0px 0px 5px #ECF0F1;
+  cursor: pointer;
+}
+.order{
+  font-size: 0.9em;
+}
+.order p{
+  margin: 0;
+  padding: 5px 0px;
+  color: grey;
+}
+.details{
+  padding: 10px 0px;
+  font-family: 'Roboto';
+}
+.details p{
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+.text{
+  padding: 15px 0px;
+  width: 100%;
+  color: #555;
+}
+span{
+  color: black;
+  font-weight: bold;
+  font-size: 1.3em;
+  float: right;
+  position: relative;
+  bottom: 22px;
+}
+.total{
+  padding-top: 15px;
+}
