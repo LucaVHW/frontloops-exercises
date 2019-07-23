@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #555;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  width: 850px;
+  height: 500px;
+  background-color: white;
+  display: flex;
+  border-radius: 5px;
+}
+.main{
+  width: 60%;
+  border-radius: 5px 0px 0px 5px;
+}
+.img{
+  width: 40%;
+  border-radius: 0px 5px 5px 0px;
+  background-image: url(img/side.jpg);
+  background-size: contain;
+}
+.top{
+  height: 83%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bottom{
+  height: 17%;
+  width: 100%;
+  border-top: 1px solid lightgrey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text{
+  width: 100%;
+  height: 100px;
+  font-family: 'Roboto';
+  width: 80%;
+  margin-top: 50px;
+}
+.text h1{
+  font-weight: lighter;
+  margin: 0;
+}
+.text p{
+  font-size: 0.8em;
+  color: grey;
+}
+.panel{
+  width: 80%;
+  height: 50px;
+  border: 1px solid gainsboro;
+  color: grey;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  margin: 10px;
+  transition-duration: 0.2s;
+}
+.panel p{
+  padding-right: 10%;
+  margin: 0;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 0.7em;
+  text-align: center;
+}
+.panel:hover{
+  cursor: pointer;
+  box-shadow: 0px 12px 32px -10px lightgrey;
+  border: none;
+  color: #111;
+}
+.email{
+  width: 50%;
+  font-family: 'Roboto';
+  font-size: 0.7em;
+  font-weight: 500;
+}
+.signemail{
+  width: 30%;
+}
+.signemail{
+  font-family: 'Roboto';
+  font-size: 0.7em;
+  font-weight: bold;
+  color: grey;
+  text-align: right;
+  transition-duration: 0.1s;
+}
+.signemail:hover{
+  color: #111;
+  cursor: pointer;
+}
