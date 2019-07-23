@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightsteelblue;
+  font-family: 'Roboto';
+}
+.container{
+  width: 400px;
+  height: 460px;
+  background-color: white;
+}
+.header{
+  padding: 15px;
+  background-color: steelblue;
+  font-weight: bold;
+  color: white;
+}
+.header p{
+  margin: 0;
+  display: flex;
+  align-items: center;
+  font-size: 0.9em;
+}
+.header span{
+  font-size: 2em;
+  padding-right: 10px;
+}
+.header img{
+  opacity: 0.7;
+  float: right;
+  position: relative;
+  bottom: 30px;
+}
+.header img:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+.date{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.line{
+  border: 1px solid lightgrey;
+  width: 35%;
+  height: 0;
+}
+.date p{
+  margin: 0;
+  color: lightgrey;
+  font-size: 0.8em;
+}
+.content{
+  margin: 0px 10px;
+  padding-bottom: 10px;
+}
+.time{
+  margin: 0;
+  color: grey;
+  font-size: 0.8em;
+  padding: 4px 4px;
+}
+.triangle{
+  border: 5px solid rgb(209,220,222,0.6);
+  width: 0;
+  height: 0;
+  border-left: 5px solid rgb(0,0,0,0);
+  border-bottom: 5px solid rgb(0,0,0,0);
+}
+.triangleme{
+  border: 5px solid whitesmoke;
+  width: 0;
+  height: 0;
+  border-right: 5px solid rgb(0,0,0,0);
+  border-bottom: 5px solid rgb(0,0,0,0);
+}
+.flex{
+  display: flex;
+}
+.message{
+  border-radius: 0px 5px 5px 5px;
+  padding: 10px 7px;
+  font-size: 0.8em;
+  background-color: rgb(209,220,222,0.6);
+  line-height: 18px;
+}
+.messageme{
+  padding: 10px 7px;
+  font-size: 0.8em;
+  background-color: whitesmoke;
+  border-radius: 5px 0px 5px 5px;
+  line-height: 18px;
+}
+.messageme p{
+  margin: 0;
+}
+.message p{
+  margin: 0;
+}
+.blocked{
+  padding: 13px 7px;
+  font-size: 0.8em;
+  background-color: rgb(249,152,154,0.8);
+  border-radius: 5px;
+}
+.blocked p{
+  margin: 0;
+}
+#pad{
+  padding-right: 60px;
+}
+.other{
+  padding-left: 338px;
+}
+#padding{
+  padding-bottom: 60px;
+}
+#blocked{
+  padding-bottom:52px;
+}
+.linenew{
+  border: 1px solid lightgrey;
+  width: 90%;
+  height: 0;
+  margin-bottom: 5px;
+}
+.chat{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.chat input{
+  width: 280px;
+  height: 30px;
+  font-family: 'Roboto';
+  border: none;
+  font-size: 0.9em;
+
+}
+.chat input:focus{
+  outline: none;
+  border: none;
+}
+.send{
+  display: flex;
+  align-items: center;
+  color: steelblue;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 0.9em;
+}
+.send p{
+  margin: 0;
+}
+.send p:hover{
+  cursor: pointer;
+}
