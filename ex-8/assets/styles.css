@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   height: 100vh;
@@ -10,18 +13,119 @@ body {
 }
 .container{
   height: 550px;
-  width: 850px;
+  width: 900px;
   background-color: white;
   box-shadow: 0px 10px 24px -15px black;
   display: flex;
 }
 .img{
-  width: 40%;
+  width: 37%;
   background-image: url(img/background.jpg);
   background-size: cover;
 }
 .main {
-  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 63%;
+}
+.top{
+  width: 100%;
+}
+.inner{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  float: right;
+}
+.inner p{
+  margin: 0;
+  color: grey;
+  font-weight: 500;
+  font-size: 0.8em;
+  font-size: 'Roboto';
+  transition-duration: 0.4s;
+}
+.inner p:hover{
+  cursor: pointer;
+  color: black;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 92%;
+  height: 92%;
+}
+.bottom{
+  margin-left: 20px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  height: 400px;
+  width: 450px;
+}
+.bottom h1{
+  font-family: 'PLayfair Display';
+  font-weight: 500;
+  font-size: 3.4em;
+  margin: 0;
+  line-height: 1.1em;
+}
+.sub{
+  font-family: 'PLayfair Display';
+  font-weight: normal;
+  padding-top: 10px;
+  margin-bottom: 35px;
+}
+.sub span{
+  font-weight: bold;
+}
+.row{
+  display: flex;
+  width: 100%;
+  height: 180px;
+}
+.image{
+  width: 150px;
+  height: 100px;
+  background-image: url(img/preview.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image img{
+  padding: 10px;
+  border-radius: 50%;
+  background-color: rgb(255,255,255,0.6);
+}
+.image:hover{
+  cursor: pointer;
+}
+.view{
+  font-size: 0.7em;
+  font-weight: bold;
+  color: #444;
+  margin: 0;
+}
+.new {
+  padding: 5px 0px;
+  width: 122px;
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+}
+.new:hover{
+  cursor: pointer;
+}
+.panel{
+}
+.text{
+  margin: 0;
+  font-size: 0.9em;
+  line-height: 2em;
+  color: #222;
 }
 .icon{
   display: flex;
@@ -29,4 +133,27 @@ body {
   font-size: 0.8em;
   color: #666;
   font-weight: 500;
+  width: 80px;
+  transition-duration: 0.3s;
+}
+.icon svg{
+  transition-duration: 0.3s;
+}
+.icon:hover svg,
+.icon:hover{
+  fill: black;
+  color: black;
+  cursor: pointer;
+}
+.icon p{
+  margin: 0;
+}
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
 }
