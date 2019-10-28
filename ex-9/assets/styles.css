@@ -31,6 +31,7 @@ body{
   width: 60%;
   height: 100%;
   border: 1px solid black;
+  padding: 25px;
 }
 .cards{
   width: 85%;
@@ -95,4 +96,23 @@ body{
 ::-webkit-scrollbar-thumb {
   background: grey;
   border-radius: 10px;
+}
+.balance {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border: 1px solid black;
+  display: flex;
+}
+.bdiv{
+  width: 50%;
+}
+.bdiv h2{
+  font-weight: normal;
+  margin: 0;
+  color: #333;
+}
+.cents{
+  font-size: 0.7em;
+  position: relative;
+  bottom: 7px;
 }
